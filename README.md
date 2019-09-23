@@ -9,8 +9,8 @@ This Project is for Searching GitHub and GitLab based on provided user
 - User Postman to run the project
 
 # Exposed URL : 
-http://localhost:8181/reposearch/{userName}/projects
-http://localhost:8181/reposearch/{userName}/projects?project_owner={ProjectOwner}
+- http://localhost:8181/reposearch/{userName}/projects
+- http://localhost:8181/reposearch/{userName}/projects?project_owner={ProjectOwner}
 
 - PathVariable 		- userName 		- define the owner of GitHut or GitLib
 - RequestParameter 	- ProjectOwner 	- defines the owner of project in GitHut or GitLib
